@@ -209,8 +209,8 @@ Triangle parseF(const std::string line) {
   std::string* c = splitify(csize, spl[3], '/');
   return Triangle{
     atoi(a[0].c_str()), atoi(b[0].c_str()), atoi(c[0].c_str()),
-    atoi(a[1].c_str()), atoi(b[1].c_str()), atoi(c[1].c_str()),
     atoi(a[2].c_str()), atoi(b[2].c_str()), atoi(c[2].c_str()),
+    atoi(a[1].c_str()), atoi(b[1].c_str()), atoi(c[1].c_str()),
     sg, shader
   };
 }
